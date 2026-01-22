@@ -31,7 +31,7 @@ st.sidebar.write("Gunakan menu di bawah untuk memilih jenis kendaraan.")
 # Ini adalah "slides bar" (selectbox) di samping untuk memilih kategori utama
 kategori_pilihan = st.sidebar.selectbox(
     "Pilih Kategori Utama:",
-    ("Rally Car 🏎️", "Bus 🚌")
+    ("Rally Car 🏎️", "Bus 🚌","Boat 🛥", "Anime")
 )
 
 st.sidebar.markdown("---")
